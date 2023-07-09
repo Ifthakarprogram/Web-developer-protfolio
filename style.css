@@ -27,6 +27,7 @@ nav a{
     text-decoration: none;
     font-size: 20px;
 }
+
 .heading{
     font-size: 40px;
     font-weight: 800px;
@@ -51,13 +52,20 @@ nav a{
     border-radius: 5px;
     border: none;
     color:#3a3a3a;
-    font-weight: 700;  
+    font-weight: 700; 
+    border: 2px solid orangered; 
+}
+
+ i{
+    margin-right: 15px;
 }
 .header-banner{
     background-color: antiquewhite;
-    background-image: url('image/header_bg.png');
+    background-image: url('image/header_bg.png'), url('image/developer.png');
     background-repeat: no-repeat; 
-    background-position: bottom right; 
+    background-position: bottom right,top left 40px;
+    
+
     
 }
 
@@ -251,3 +259,4 @@ footer{
     width: 400px;
     
 }
+
