@@ -64,18 +64,11 @@ nav a{
     background-image: url('image/header_bg.png'), url('image/developer.png');
     background-repeat: no-repeat; 
     background-position: bottom right,top left 40px;
-    
-
-    
 }
 
 .banner .profil-picture{
     width: 590px;
     padding-right: 150px;
-    
-    
-       
-
 }
 
 .banner{
@@ -88,9 +81,7 @@ nav a{
 .banner-greeting{
     font-size: 45px;
     margin-bottom:0px;
-    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
 .banner-title{
@@ -107,8 +98,8 @@ nav a{
     font-family:'Open Sans'sans-serif;
     font-weight: 400px;
     color:#757575;
-    
 }
+
 /* Main section */
 
 /* About section */
@@ -258,5 +249,122 @@ footer{
     font-size: 13px;
     width: 400px;
     
+}
+
+/* responsive style */
+
+/* Mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .skill-container,footer,nav,.banner{
+        flex-direction: column;
+    }
+    #apple-what{
+        padding:20px;
+        text-align: center;
+        line-height: 28px;
+    }
+    .resume-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section-title{
+        font-size: 32px;
+        padding: 20px;
+    }
+     footer{
+        padding: 0px 20px;
+        text-align: center;
+        gap: 0px;
+        padding-bottom: 50px;
+    }
+    footer .section-title{
+        text-align: left;
+        width: 300px;
+        margin: 20px;
+    
+    }
+    footer p{
+      text-align: center;
+      width:450px;
+      margin: 0px;
+    }
+    .social-link{
+        text-align: left;
+    }
+    .about{
+        padding: 50px;
+        padding-top: 7px;
+    }
+   .about p{
+    text-align: center;
+   }
+   .info-about{
+    display:block;
+   }
+   .banner-greeting{
+    font-size: 45px;
+    width: 600px;
+}
+.header-banner{
+    background-image: url('image/header_bg.png');
+    background-repeat: no-repeat; 
+    background-position: bottom right;
+}
+.banner button{
+    margin-bottom: 20px;
+}
+#btn-contract{
+    background-color:rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 9px 40px;
+    border-radius: 5px;
+    border: none;
+    color:#3a3a3a;
+    font-weight: 700;
+    border: 2px solid orangered; 
+    text-align: left; 
+    
+}
+.btn-primary{
+    background-color: orangered;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;   
+}
+.banner .profil-picture{
+    width: 400px;
+    padding-right:200px;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 600px;
+    color:#000000;
+}
+.partag{
+    max-width: 400px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family:'Open Sans'sans-serif;
+    font-weight: 400px;
+    color:#757575;
+    text-align: justify;
+    
+}
+
+
+   
+}
+
+@media screen and (min-width:576px) and (max-width: 960px){
+
 }
 
