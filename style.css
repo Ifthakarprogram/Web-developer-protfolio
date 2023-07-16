@@ -356,7 +356,18 @@ footer{
     font-family:'Open Sans'sans-serif;
     font-weight: 400px;
     color:#757575;
-    text-align: justify;
+    text-align: justify;  
+}
+
+.contract-form input[type="text"], .contract-form input[type="email"],textarea{
+    display: block;
+    padding: 40px 35px;
+    margin-bottom: 25px;
+    border: 0px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 13px;
+    width: 80%;
     
 }
 
